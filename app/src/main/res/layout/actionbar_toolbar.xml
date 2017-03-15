@@ -13,14 +13,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        />
+        android:textAlignment="center"
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:fillViewport="true"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:Left=""
+        android:layout_height="match_parent"
+        android:scrollHorizontally="false"
         android:text="nombre contacto 1"
         >
 
@@ -84,7 +90,9 @@
         android:id="@+id/button13"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="nombre contacto 14"/>
+        android:text="nombre contacto 14"
+
+        />
 
 
 </android.support.design.widget.AppBarLayout>
